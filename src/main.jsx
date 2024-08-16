@@ -9,12 +9,12 @@ import Index from "./routes/index";
 
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 import "./index.css";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
     path: "/",
     element: <Root />,
